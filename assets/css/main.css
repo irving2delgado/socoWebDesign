@@ -1804,6 +1804,7 @@
 	.box {
 		margin-bottom: 2rem;
 		background: #FFF;
+		flex: 1;
 	}
 
 		.box .content {
@@ -3605,6 +3606,12 @@
 			#menu > ul.links {
 				list-style: none;
 				padding: 0;
+			}
+
+			 ul.links1 {
+				list-style: none;
+				padding: 0;
+				text-decoration: none;
 			}
 
 				#menu > ul.links > li {
